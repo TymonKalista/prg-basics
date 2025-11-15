@@ -7,7 +7,7 @@ liczba = 0
 
 
 # Calculate the sum of even numbers
-while N > liczba:
+while N >= liczba:
     if liczba % 2 == 0:
         sum_even += liczba
         liczba = liczba + 1
