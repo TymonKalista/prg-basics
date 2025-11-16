@@ -23,10 +23,10 @@ print('Binary number of "304" is', binary)
 heximal = hex(304)
 print('Heximal number of "304" is', heximal)
 
-str_length = len("computer science")
-print('The number of characters in "computer science" is', str_length)
+length = len("computer science")
+print('The number of characters in "computer science" is', length)
 
-euro = chr(€)
+euro = chr('€')
 print('The chr  of Euro', euro)
 
 absoulte = abs(-17)
