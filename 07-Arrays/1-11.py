@@ -32,6 +32,9 @@ while i < mesaurements:
       
 
 # prints out month report
-...
-...
-...
+print('TEMPERATURE REPORT')
+print('Month:March')
+print('Averege temperature in the month: ', avg_temp)
+print('Minimum temperature: ',min_temp)
+print('Maximum temperature: ',max_temp)
+print('Number of days with negative temperatures: ', negative_temp)
