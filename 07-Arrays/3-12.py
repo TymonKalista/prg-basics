@@ -1,6 +1,5 @@
 arr  = [2, 3, 2, 5, 8, 1, 9, 8]
-print('Array: ',end='')
-print(", ".join(arr))
+
 print('Unique elements: ', end=' ')
 for i in range(0,len(arr)):
     x = arr[i] 
