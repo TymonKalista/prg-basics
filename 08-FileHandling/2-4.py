@@ -12,9 +12,15 @@ with open(employees_file) as file:
 # Position
 job_title = 'Software Engineer'
 
-# write selected employees to a file
-with open(employees_file, 'r') as employees:
-    with open(position_file, 'w') as engeeneers:
-      for line in employees:
-         if job_title in line:
-            engeeneers.write(line)
+contnent = content.splitlines()
+if job_title in content:
+      print(content)
+    
+
+
+#write selected employees to a file
+#with open(employees_file, 'r') as employees:
+  #  with open(position_file, 'w') as engeeneers:
+ #     for line in employees:
+   #      if job_title in line:
+    #        engeeneers.write(line)

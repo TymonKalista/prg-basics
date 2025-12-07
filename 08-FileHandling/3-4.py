@@ -8,7 +8,7 @@ with open(email_file) as file:
     email = file.read()
 
 # regular expression pattern for amounts (e.g., €102, €30)
-pattern = r'€(\d+)'  # Capturing only the digits after the €
+pattern = r'(\d+)'  # Capturing only the digits after the €
 
 # extract numbers from email
 amounts = re.findall(pattern, email)
