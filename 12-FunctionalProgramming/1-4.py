@@ -1,0 +1,7 @@
+distance = input('enter distance: ')
+hours = input('enter travel hours: ')
+minutes = input('enter travel minutes: ')
+avg_speed = lambda x,y,z: int(x)/(int(y)+(int(z)/60))
+result = avg_speed(distance, hours, minutes)
+result= round(result, 2)
+print('Avg speed is: ', result)
